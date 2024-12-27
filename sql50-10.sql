@@ -1,3 +1,5 @@
+-- 1661. Average Time of Process per Machine
+
 SELECT A1.machine_id, ROUND(AVG(A2.timestamp - A1.timestamp), 3) AS processing_time 
 FROM Activity A1
 JOIN Activity A2
