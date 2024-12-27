@@ -1,3 +1,5 @@
+-- 1193. Monthly Transactions I
+
 SELECT DATE_FORMAT(trans_date, '%Y-%m') AS month,
        country,
        COUNT(*) AS trans_count,
