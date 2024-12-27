@@ -1,3 +1,5 @@
+-- 1280. Students and Examinations
+
 SELECT s.student_id, s.student_name, sub.subject_name, COUNT(e.student_id) AS attended_exams
 FROM Students s
 CROSS JOIN Subjects sub
