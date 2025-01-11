@@ -1,6 +1,4 @@
 
-markdown
-Copy code
 # SQL50 and Pandas Intro Solutions
 
 This repository contains solutions to SQL challenges from the SQL50 series and an introduction to Pandas for data manipulation in Python.
